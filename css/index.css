@@ -1,0 +1,48 @@
+main {
+    padding: 25px;
+}
+
+.article_anchor {
+    display: flex;
+    justify-content: center;
+}
+
+article {
+    cursor: pointer;
+    height: 25vh;
+    min-height: 200px;
+    background-color: #2B3F74;
+    width: 80%;
+    min-width: 350px;
+    border-radius: 25px;
+    border: 3px solid #4f69af;
+    display: flex;
+    align-items: center;
+    margin-bottom: 25px;
+}
+
+.article_content {
+    width: 80%;
+    padding: 0px 20px;
+    margin: 15px 0px;
+    height: 100%;
+    color: white;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+article:hover {
+    filter: brightness(1.1);
+}
+
+.article_content>h2 {
+    text-align: center;
+    height: 25%;
+    margin: 0px;
+    padding-top: 5px;
+}
+
+.article_madeline {
+    width: 20%;
+    transform: scaleX(-1);
+}

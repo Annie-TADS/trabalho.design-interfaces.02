@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Strawberry Summit</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/help.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Tilt%20Neon">
+    <link rel="shortcut icon" href="../images/favicon.ico" type="image/x-icon">
+</head>
+
+<body>
+    <header>
+        <div class="header_banner">
+            <img class="header_logo" src="../images/strawberry.png" alt="strawberry logo">
+            <h1 class="header_title">Strawberry Summit</h1>
+        </div>
+        <nav>
+            <a href="/">Home</a>
+            <a href="./gallery.html">Gallery</a>
+            <a href="./help.html">Help</a>
+        </nav>
+    </header>
+
+    <main>
+        <div class="breadcrumb">
+            <a href="/">Home</a> >
+            <span>Help </span>
+        </div>
+
+        <div class="form-wrapper">
+            <div class="form-container">
+                <h1>Can't get a strawberry?</h1>
+                <form action="submit.php" method="post">
+                    <fieldset>
+                        <label for="name">Your Name:</label>
+                        <input type="text" id="name" name="name" required>
+
+                        <label for="email">Your Email:</label>
+                        <input type="email" id="email" name="email" required>
+
+
+                        <label for="chapter">Chapter:</label>
+                        <input type="number" id="chapter" name="chapter" required>
+                        
+                        <label for="screen_description">Screen Description:</label>
+                        <textarea id="screen_description" name="screen_description" required></textarea>
+
+                        <label for="strategy_used">Strategy Used:</label>
+                        <textarea id="strategy_used" name="strategy_used" required></textarea>
+                        
+                        <label for="screenshot">Screenshot (if available):</label>
+                        <input type="file" id="screenshot" name="screenshot">
+                    </fieldset>
+
+                    <div class="submit_button">
+                        <button type="submit">Submit</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </main>
+    
+    <footer class="site-footer">
+        <div class="footer-content">
+            <p>Celeste Mountain, 123 Summit Way, Anxietyville</p>
+            <p>&copy; 2023 <a href="https://www.exok.com">Extremely Okay Games Ltda.</a> All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+
+</html>

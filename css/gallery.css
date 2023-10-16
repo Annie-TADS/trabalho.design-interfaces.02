@@ -1,0 +1,32 @@
+.gallery_row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.gallery_image {
+    display: flex;
+    flex-flow: column;
+    padding: 5px;
+    max-width: 300px;
+    margin: 35px;
+}
+
+.gallery_image,
+.gallery_image>img {
+    height: 300px;
+    width: 300px;
+}
+
+.gallery_image>img {
+    padding: 0px;
+    margin: 0px;
+}
+
+.gallery_caption {
+    color: #fff;
+    font: italic smaller sans-serif;
+    padding: 3px;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.5);
+}
